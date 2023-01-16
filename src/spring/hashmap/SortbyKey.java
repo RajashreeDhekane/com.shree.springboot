@@ -14,10 +14,9 @@ public class SortbyKey {
 		map.put("Suraj", "COMP");
 		map.put("Pooja", "CIVIL");
 
-		System.out.println("Before Hash map demo >> " + map);
+		System.out.println(" ::::: Sort by Key(Sort by name) ::::: ");
 
 		List<String> keysort = new ArrayList<String>(map.keySet());
-
 		Collections.sort(keysort);
 		System.out.println("After Hash map demo >> " + keysort);
 
