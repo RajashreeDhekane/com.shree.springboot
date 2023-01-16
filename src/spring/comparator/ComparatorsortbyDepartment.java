@@ -1,9 +1,9 @@
-package spring;
+package src.spring.comparator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ComparatorsortbyAge {
+public class ComparatorsortbyDepartment {
 
 	public static void main(String args[]){  
 		EmployeeComparator e1=new EmployeeComparator("101","Vijay","20", "IT");
@@ -26,7 +26,7 @@ public class ComparatorsortbyAge {
 
 	
 
-		Collections.sort(list,new SortbyAge());
+		Collections.sort(list,new SortbyDepartment());
 		
 		System.out.println("After sorting data >> "+list);
 		}

@@ -1,4 +1,4 @@
-package spring;
+package src.spring.comparator;
 import java.util.*;  
 
 public class SortbyAge implements Comparator<EmployeeComparator> {

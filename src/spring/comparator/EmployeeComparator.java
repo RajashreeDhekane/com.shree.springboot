@@ -1,6 +1,7 @@
-package spring;
+package src.spring.comparator;
+import java.util.Comparator;
 
-public class Employee implements Comparable<Employee> {
+public class EmployeeComparator implements Comparator<EmployeeComparator> {
 	// variable
 private String id;
 private String name ;
@@ -8,7 +9,7 @@ private String age;
 private String department;
 
 // constructor
-public Employee(String id, String name, String age, String department) {
+public EmployeeComparator(String id, String name, String age, String department) {
 	super();
 	this.id = id;
 	this.name = name;
@@ -17,7 +18,7 @@ public Employee(String id, String name, String age, String department) {
 }
 
 
-public Employee(int i, String string, int j) {
+public EmployeeComparator(int i, String string, int j) {
 	// TODO Auto-generated constructor stub
 }
 
@@ -54,10 +55,11 @@ public String toString() {
 }
 
 
+
 @Override
-public int compareTo(Employee o) {
-int value =this.id.compareTo(o.getId());
-return value;
+public int compare(EmployeeComparator o1, EmployeeComparator o2) {
+	// TODO Auto-generated method stub
+	return 0;
 }
 
 }
